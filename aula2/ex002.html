@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex002</title>
+    <!--css-->
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.84);
+        }
+        h1 {
+            color: #e4e4e4;
+            background-color: rgb(111, 111, 229);
+            width: 40%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!--html-->
+    <h1 onclick="alerta()">Olá mundo!</h1>
+
+    <!--javascript-->
+    <script>
+        function alerta() {
+            alert('olá javascript')
+            confirm('tudo bem?')
+            let dia = prompt('que dia é hoje?')
+            alert("Hoje é dia " + dia)
+        }
+    </script>
+</body>
+
+</html>
